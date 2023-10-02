@@ -1,0 +1,319 @@
+body {
+  background-color: #2e3440;
+  background-size: cover;
+}
+
+.bodyFoto {
+  background-color: #E2B6AD;
+}
+
+h1 {
+  color: #29232e;
+}
+
+.header1 {
+  color: #B7BDC8;
+}
+
+.fontChange {
+  margin-left: 7%;
+  font-family: url(soria/soria-font.ttf);
+}
+
+.padding {
+  padding: 5px;
+}
+
+.paragraph {
+  background-color: #4c566a;
+  width: 35vw;
+  margin-left: 7%;
+  border-radius: 30px;
+  opacity: 75%;
+  
+}
+
+.paragraph2 {
+  background-color: #B7BDC8;
+  width: 30%;
+  margin-left: 7%;
+  border-radius: 30px;
+  opacity: 75%;
+}
+
+.maino {
+  width: 100%;
+  margin-bottom: 30%;
+}
+
+.maino2 {
+  width: 100%;
+  margin-bottom: 25%;
+}
+
+.Side {
+  width: 2%;
+  background-color: #4c566a;
+  margin-right: 0px;
+  padding: 1%;
+  border-radius: 15px;
+  position: absolute;
+  transition: 0.3s;
+  height: 80%;
+  box-shadow: 0 2px 5px;
+}
+
+.Side:hover {
+  width: 4%;
+  box-shadow: 0 5px 15px;
+}
+
+button {
+  margin-bottom: 1%;
+  width: 250;
+  height: 200;
+  float: right;
+  clear: both;
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 20px;
+  clear: both;
+  background-color: rgba(0,0,0,0.2);
+  margin-bottom: 5px;
+  float: right;
+  justify-content: end;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  margin-bottom: 10px;
+  margin-right: 40px;
+  box-shadow: 0 5px 15px 
+  rgba(145, 92, 182, .4);
+}
+
+textarea {
+  margin-left: 10px;
+  background: none;
+  width: 90%;
+  border: none;
+}
+
+/* Grid Start */
+
+.picture {
+  display: grid;
+  grid-template-columns: 7% repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
+}
+
+.picture_img {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.picture_item:hover
+{
+  
+  box-shadow: 0 5px 15px;
+}
+
+.picture_item1 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.picture_item2 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+
+.picture_item3 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.picture_item4 {
+  grid-column-start: 8;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+
+.picture_item5 {
+  grid-column-start: 8;
+  grid-column-end: 10;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+
+.picture_item6 {
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+
+.picture_item7 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 5;
+  grid-row-end: 11;
+}
+
+.picture_item8 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 11;
+}
+
+/* GRID END */
+
+
+
+/* FLEX START */
+
+.pictureOfMe {
+  display: flex;
+  justify-content: end;
+  width: 70%;
+  height: 50%;
+  align-self: end;
+  border-radius: 15px;
+}
+
+.pictureOfMe_img {
+  display: flex;
+  width: 30%;
+  height: 40%;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 15px;
+}
+
+/* FLEX END */
+
+
+
+/* FOOTER */
+  
+footer {
+  text-align: center;
+  color: #B7BDC8;
+}
+
+.footer1 {
+  color: #29232e;
+}
+
+hr {
+  width: 90%;
+  height: 3px;
+  background-color: #4c566a;
+  border: none;
+}
+
+.hr2 {
+  width: 50%;
+  height: 3px;
+  background-color: #4c566a;
+  border: none;
+}
+
+.link {
+    color: #B7BDC8;
+}
+
+.link1 {
+  color: #29232e;
+}
+
+.link:hover {
+    color: rgb(0, 0, 192);
+}
+
+.link:active {
+    color:wheat;
+}
+
+/* FOOTER */
+
+
+
+/* Mobile */
+
+@media (max-width: 1000px) {
+  .paragraph {
+    margin-left: 19%;
+  }
+  
+  .Side {
+      width: 15%;
+      position: absolute;
+  }
+
+  .Side:hover {
+    width: 13%;
+    position: absolute;
+} 
+
+  .header, .header1 {
+    margin-left: 19%;
+  }
+
+  .paragraph {
+    width: 80%;
+  }
+  
+  .pictureOfMe {
+    display: block;
+    margin-top: 15%;
+    margin-left: 16%;
+  }
+  
+  .pictureOfMe_img {
+    width: 65%;
+    height: 40%;
+    border-radius: 15px;
+  }
+  
+  .maino, .maino3 {
+    margin-bottom: 100vw;
+  }
+  
+  .maino2 {
+    margin-bottom: 55vw;
+  }
+
+  .picture {
+    display: block;
+  }
+
+  body {
+    background-size: cover;
+  }
+
+}
+
+/* Mobile */
