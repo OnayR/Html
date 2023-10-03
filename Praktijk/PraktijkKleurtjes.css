@@ -7,12 +7,20 @@ body {
   background-color: #E2B6AD;
 }
 
-h1 {
-  color: #29232e;
+button {
+  margin-bottom: 1%;
+  width: 250;
+  height: 200;
+  float: right;
+  clear: both;
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
-.header1 {
-  color: #B7BDC8;
+h1 {
+  color: #29232e;
 }
 
 .fontChange {
@@ -68,18 +76,6 @@ h1 {
   box-shadow: 0 5px 15px;
 }
 
-button {
-  margin-bottom: 1%;
-  width: 250;
-  height: 200;
-  float: right;
-  clear: both;
-  display: block;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
 .card {
   display: flex;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -128,7 +124,7 @@ textarea {
 
 .picture_item:hover
 {
-  
+  transition: 0.25s;
   box-shadow: 0 5px 15px;
 }
 
@@ -234,6 +230,10 @@ hr {
   border: none;
 }
 
+.hr1 {
+  color: #B7BDC8;
+}
+
 .hr2 {
   width: 50%;
   height: 3px;
@@ -241,11 +241,16 @@ hr {
   border: none;
 }
 
-.link {
-    color: #B7BDC8;
+.white {
+    color: #e7ab9f;
+    background-color: #e7ab9f;
 }
 
-.link1 {
+.white1 {
+  color: #eae7dd;
+}
+
+.black {
   color: #29232e;
 }
 
